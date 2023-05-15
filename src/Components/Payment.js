@@ -9,7 +9,7 @@ import RunningWithErrorsIcon from '@mui/icons-material/RunningWithErrors';
 import PaymentsIcon from '@mui/icons-material/Payments';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import { useState } from 'react';
-function Navbar() {
+function Payment() {
   const [selectedValue, setSelectedValue] = useState('12');
 
   const handleChange = (event) => {
@@ -130,4 +130,4 @@ function Navbar() {
    
   )
 }
-export default Navbar
+export default Payment
